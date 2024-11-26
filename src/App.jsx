@@ -5,6 +5,8 @@ import DetalleProductos from './pages/DetalleProductos'
 import FabricantesYComponentes from './pages/FabricantesYComponentes'
 import Inicio from './pages/Inicio'
 import Catalogo from './pages/Catalogo'
+import './App.css'
+
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
       <Menu />
       <Routes>
         <Route path='/' element ={<Inicio />}></Route>
-        <Route path='/catalogo' element={<Catalogo/>}></Route>
+        <Route path='/Catalogo' element={<Catalogo/>}></Route>
         <Route path='/detalleProductos/:id' element={<DetalleProductos/>}></Route>
         <Route path='/fabricantesYComponentes' element={<FabricantesYComponentes/>}></Route>
-        <Route path='/*' element={<Navigate to= '/' />}></Route> //Cualquier cosa a inicio
+        <Route path='/*' element={<Navigate to= '/' />}></Route>
       </Routes>
     </div>
   )

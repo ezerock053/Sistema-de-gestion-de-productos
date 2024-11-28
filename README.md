@@ -25,12 +25,27 @@ La aplicación de EPAC permite a los usuarios:
  2. Ejecuta el siguiente comando para instalar las dependencias del Backend:
  ```cd tp-backend``` y luego ```npm install```, tambien debes correrlo ```npm run dev```
 
- 3. Ejecuta el siguiente comando para instalar las dependencias del Frontend:
- ```cd src``` y luego ```npm install```
+ 3. Para iniciar la aplicación en tu navegador ejecuta:
+ ``` npm run dev``` 
 
- 4. Para iniciar la aplicación en tu navegador ejecuta:
- ```npm run dev``` 
+ 4. Para abrir la pagina ir a:
+```http://localhost:5173/```
+
+ ## Tips para correr la API local
+
+ 1. Clona este repositorio en tu máquina local.
+ ``` git clone https://github.com/CIU-UnaHur/tp-backend.git```
+
+ 2. Ejecuta el siguiente comando para instalar las dependencias:
+ ```npm install ```
+
+ 3. Para iniciar la aplicación en tu navegador ejecuta:
+ ``` npm run dev``` 
+
+ 4. Se acepta la solicitud de permisos
  
+ 5. El servidor estara corriendo en el puerto 5000
+
 ## Tecnologías Utilizadas
 
 **React:** La interfaz de usuario de la aplicación está construida utilizando React, una biblioteca de JavaScript para construir interfaces de usuario.

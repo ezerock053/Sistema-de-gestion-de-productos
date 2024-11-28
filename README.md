@@ -19,32 +19,32 @@ La aplicación de EPAC permite a los usuarios:
 
 ## Instalación
 
- 1. Clona este repositorio en tu máquina local.
- ``` git clone https://github.com/ezerock053/Sistema-de-gestion-de-productos.git```
+1.  Clona este repositorio en tu máquina local.
+    ` git clone https://github.com/ezerock053/Sistema-de-gestion-de-productos.git`
 
- 2. Ejecuta el siguiente comando para instalar las dependencias del Backend:
- ```cd tp-backend``` y luego ```npm install```, tambien debes correrlo ```npm run dev```
+2.  Ejecuta el siguiente comando para instalar las dependencias:
+    `cd src` y luego `npm install`
 
- 3. Para iniciar la aplicación en tu navegador ejecuta:
- ``` npm run dev``` 
+3.  Para iniciar la aplicación en tu navegador ejecuta:
+    ` npm run dev`
 
- 4. Para abrir la pagina ir a:
-```http://localhost:5173/```
+4.  Para abrir la pagina ir a:
+    `http://localhost:5173/`
 
- ## Tips para correr la API local
+## Tips para correr la API local
 
- 1. Clona este repositorio en tu máquina local.
- ``` git clone https://github.com/CIU-UnaHur/tp-backend.git```
+1.  Clona este repositorio en tu máquina local.
+    ` git clone https://github.com/CIU-UnaHur/tp-backend.git`
 
- 2. Ejecuta el siguiente comando para instalar las dependencias:
- ```npm install ```
+2.  Ejecuta el siguiente comando para instalar las dependencias:
+    `cd tp-backend` y luego `npm install`
 
- 3. Para iniciar la aplicación en tu navegador ejecuta:
- ``` npm run dev``` 
+3.  Para iniciar la aplicación en tu navegador ejecuta:
+    ` npm run dev`
 
- 4. Se acepta la solicitud de permisos
- 
- 5. El servidor estara corriendo en el puerto 5000
+4.  Se acepta la solicitud de permisos
+
+5.  El servidor estara corriendo en el puerto 5000
 
 ## Tecnologías Utilizadas
 

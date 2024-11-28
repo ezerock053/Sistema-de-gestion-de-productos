@@ -119,6 +119,7 @@ color: #2c5282;
 .product-manufacturers ul {
 list-style: none;
 padding: 0;
+list-style-type: none;
 }
 
 .product-components li,
@@ -126,7 +127,6 @@ padding: 0;
 position: relative;
 padding-left: 1.5rem;
 margin: 0.5rem 0;
-list-style: none;
 }
 
 .product-components li::before,
@@ -167,5 +167,38 @@ width: 100%;
 
 .product-detail.expanded .product-list-sidebar {
 margin-bottom: 1rem;
+}
+}
+
+@media (max-width: 480px) {
+.product-detail {
+padding: 1rem;
+gap: 1rem;
+}
+
+.product-list-sidebar {
+padding: 0.5rem;
+}
+
+.product-list-sidebar button {
+padding: 0.5rem 1rem;
+padding-left: 1.5rem;
+}
+
+.product-detail-content section {
+padding: 1rem;
+}
+
+.product-main-info img {
+max-width: 100%;
+margin: 0.5rem 0;
+}
+
+.product-title {
+font-size: 1.2rem;
+}
+
+.price {
+font-size: 1.2rem;
 }
 }

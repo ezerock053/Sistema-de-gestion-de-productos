@@ -22,17 +22,20 @@ La aplicación de EPAC permite a los usuarios:
  1. Clona este repositorio en tu máquina local.
  ``` git clone https://github.com/ezerock053/Sistema-de-gestion-de-productos.git```
 
- 2. Ejecuta el siguiente comando para instalar las dependencias:
- ```npm install ```
+ 2. Ejecuta el siguiente comando para instalar las dependencias del Backend:
+ ```cd tp-backend``` y luego ```npm install```, tambien debes correrlo ```npm run dev```
 
- 3. Para iniciar la aplicación en tu navegador ejecuta:
- ``` npm run dev``` 
+ 3. Ejecuta el siguiente comando para instalar las dependencias del Frontend:
+ ```cd src``` y luego ```npm install```
+
+ 4. Para iniciar la aplicación en tu navegador ejecuta:
+ ```npm run dev``` 
  
 ## Tecnologías Utilizadas
 
 **React:** La interfaz de usuario de la aplicación está construida utilizando React, una biblioteca de JavaScript para construir interfaces de usuario.
 
-**React Bootstrap y Tailwind**: Se utilizan para facilitar la creación de componentes visuales y mejorar la apariencia general de la aplicación.
+**React Bootstrap**: Se utilizan para facilitar la creación de componentes visuales y mejorar la apariencia general de la aplicación.
 
 **HTML, CSS Y JavaScipt**: Estructura, estilo e interacción de la página.
 

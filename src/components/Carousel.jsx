@@ -11,13 +11,13 @@ export default function Carousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/public/image-empresa.jpg" className="d-block w-100" alt="Tecnología Electrónica" />
+          <a target="_blank" href="https://www.youtube.com/watch?v=G5u3kk0ISlA"><img src="/public/image-empresa.jpg" className="d-block w-100" alt="Tecnología Electrónica" /></a>
         </div>
         <div className="carousel-item">
-          <img src="/public/image-empresa-meeting.jpg" className="d-block w-100" alt="Soluciones de Empaque" />
+          <a target="_blank" href="https://www.youtube.com/watch?v=Pt6D2N4BjOM"><img src="/public/image-empresa-meeting.jpg" className="d-block w-100" alt="Soluciones de Empaque" /></a>
         </div>
         <div className="carousel-item">
-          <img src="/public/image-empresa-speach.webp" className="d-block w-100" alt="Innovación y Sostenibilidad" />
+          <a target="_blank" href="https://www.youtube.com/watch?v=JcuNpGoxH1w"><img src="/public/image-empresa-speach.webp" className="d-block w-100" alt="Innovación y Sostenibilidad" /></a>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

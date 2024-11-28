@@ -1,5 +1,4 @@
-//Se debe descargar primero la aplicación compartida por el profesor y levantarla con npm run dev
-const BASE_URL = 'http://localhost:5000'; 
+const BASE_URL = 'http://localhost:5000';
 
 // Todos los productos
 export const fetchProductos = async () => {
@@ -8,7 +7,7 @@ export const fetchProductos = async () => {
     if (!response.ok) throw new Error('No se pudieron cargar los productos');
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener productos:", error);
+    console.error("Error al obtener productos:", error.message);
     return [];
   }
 };
@@ -20,7 +19,7 @@ export const fetchProductoById = async (id) => {
     if (!response.ok) throw new Error(`No se pudo cargar el producto con id ${id}`);
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener el producto:", error);
+    console.error("Error al obtener el producto:", error.message);
     return null;
   }
 };
@@ -32,7 +31,7 @@ export const fetchFabricantesByProducto = async (id) => {
     if (!response.ok) throw new Error(`No se pudieron cargar los fabricantes del producto ${id}`);
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener fabricantes:", error);
+    console.error("Error al obtener fabricantes:", error.message);
     return [];
   }
 };
@@ -44,7 +43,7 @@ export const fetchComponentesByProducto = async (id) => {
     if (!response.ok) throw new Error(`No se pudieron cargar los componentes del producto ${id}`);
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener componentes:", error);
+    console.error("Error al obtener componentes:", error.message);
     return [];
   }
 };
@@ -56,7 +55,7 @@ export const fetchAllFabricantes = async () => {
     if (!response.ok) throw new Error('No se pudieron cargar los fabricantes');
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener fabricantes:", error);
+    console.error("Error al obtener fabricantes:", error.message);
     return [];
   }
 };
@@ -68,7 +67,7 @@ export const fetchAllComponentes = async () => {
     if (!response.ok) throw new Error('No se pudieron cargar los componentes');
     return await response.json();
   } catch (error) {
-    console.error("Error al obtener componentes:", error);
+    console.error("Error al obtener componentes:", error.message);
     return [];
   }
 };
